@@ -1,0 +1,4 @@
+ pandas
+ pickle5
+ streamlit
+ scikit-learn

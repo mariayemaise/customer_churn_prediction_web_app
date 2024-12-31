@@ -10,13 +10,13 @@ import pickle
 import streamlit as st
 
 # Load the model and features
-with open('C:/Users/Ajose Maria/Downloads/ML/customer_churn_model.pkl', 'rb') as f:
+with open('customer_churn_model.pkl.gz', 'rb') as f:
     model_data = pickle.load(f)
     loaded_model = model_data['model']
     features = model_data['features_names']
 
 # Load label encoders
-with open("C:/Users/Ajose Maria/Downloads/ML/label_encoder.pkl", "rb") as f:
+with open("label_encoder.pkl", "rb") as f:
     encoders = pickle.load(f)
 
 # Function for prediction

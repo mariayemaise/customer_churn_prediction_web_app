@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # Load the model and features
-with open('customer_churn_model.pkl.gz', 'rb') as f:
+with gzip.open('customer_churn_model.pkl.gz', 'rb') as f:
     model_data = pickle.load(f)
     loaded_model = model_data['model']
     features = model_data['features_names']

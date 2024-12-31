@@ -7,6 +7,7 @@ Created on Wed Dec  4 13:25:14 2024
 
 import pandas as pd
 import pickle
+import gzip
 import streamlit as st
 
 # Load the model and features

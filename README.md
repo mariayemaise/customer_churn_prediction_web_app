@@ -1,7 +1,6 @@
+# Customer Churn Prediction Web App
+This repository hosts a Streamlit-based web application for Customer Churn Prediction. 
+The model is publicly accessible via Streamlit Community Cloud.
 
-Here’s a modified and concise version of your README:
+[Access the deployed app here](https://customerchurnpredictionwebapp-8ksjmbtvcuqujeee2cuyqe.streamlit.app/)
 
-Customer Churn Prediction Web App
-This repository hosts a Streamlit-based web application for Customer Churn Prediction. The model is publicly accessible via Streamlit Community Cloud.
-
-Access the deployed app here
